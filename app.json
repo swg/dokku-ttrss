@@ -1,0 +1,85 @@
+{
+    "name": "Tiny Tiny RSS",
+    "description": "Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.",
+    "keywords": [
+        "php",
+    ],
+    "env": {
+        "DB_TYPE": {
+            "description": "Database type.",
+            "value": "pgsql"
+        },
+        "DB_HOST": {
+            "description": "Database host.",
+            "value": "localhost"
+        },
+        "DB_PORT": {
+            "description": "Database port.",
+            "value": "3306"
+        },
+        "DB_USERNAME": {
+            "description": "Database username.",
+            "value": "root"
+        },
+        "DB_PASSWORD": {
+            "description": "Database password.",
+            "value": "password"
+        },
+        "DB_NAME": {
+            "description": "Database name.",
+            "value": "ttrss"
+        },
+        "SELF_URL_PATH": {
+            "description": "Full URL of the tt-rss installation.",
+            "value": "http://localhost/"
+        }
+        "FEED_CRYPT_KEY": {
+            "description": "Encrypting the passwords of password-protected feeds.",
+            "value": "feed_crypt_key"
+        }
+        "SINGLE_USER_MODE": {
+            "description": "Disables multiple users and authentication.",
+            "value": "key"
+        }
+        "ENABLE_REGISTRATION": {
+            "description": "Enable user registration.",
+            "value": "true"
+        }
+        "REG_NOTIFY_ADDRESS": {
+            "description": "Email address to send new user notifications to.",
+            "value": "user@your.domain.dom"
+        }
+        "REG_MAX_USERS": {
+            "description": "Maximum amount of users which will be allowed to register on this deploy, defaults to unlimited.",
+            "value": "10"
+        }
+        "SMTP_FROM_NAME": {
+            "description": "Name for sending outgoing mail.",
+            "value": "Tiny Tiny RSS"
+        }
+        "SMTP_FROM_ADDRESS": {
+            "description": "Address for sending outgoing mail.",
+            "value": "ttrss@your.domain.dom"
+        }
+        "SMTP_SERVER": {
+            "description": "Server for sending outgoing mail.",
+            "value": "localhost:25"
+        }
+        "SMTP_LOGIN": {
+            "description": "Login for SMTP authentication.",
+            "value": "root"
+        }
+        "SMTP_PASSWORD": {
+            "description": "Password for SMTP authentication.",
+            "value": "password"
+        }
+        "SMTP_SECURE": {
+            "description": "Select a secure SMTP connection, ssl or tls.",
+            "value": "tls"
+        }
+        "CHECK_FOR_UPDATES": {
+            "description": "Check for updates to ttrss.",
+            "value": "false"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+	"name": "dokku-ttrss",
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "fox/ttrss",
+				"version": "master",
+				"type": "project",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/dittos/ttrss-mirror.git",
+					"reference": "master"
+				}
+			}
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"fox/ttrss": "@dev",
+		"ext-curl": "*",
+		"ext-gd": "*",
+		"ext-mbstring": "*"
+	},
+	"extra": {
+		"heroku": {
+			"nginx-includes": ["nginx.conf"]
+		}
+	},
+	"scripts": {
+		"compile": "bash setup.sh"
+	}
+}

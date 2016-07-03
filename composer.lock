@@ -1,0 +1,37 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "621a6566430df64ebd9c705880a8b287",
+    "content-hash": "8548d3dc7fcbb7cb7f421511dfab9778",
+    "packages": [
+        {
+            "name": "fox/ttrss",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dittos/ttrss-mirror.git",
+                "reference": "master"
+            },
+            "type": "project",
+            "time": "2016-06-03 09:08:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fox/ttrss": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": []
+}
