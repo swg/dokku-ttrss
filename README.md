@@ -28,3 +28,4 @@ Unset WRITE_SCHEMA:
 
 All configuration is done with environment variables and setting them via Dokku.
 They are documented in the [app.json](app.json).
+
