@@ -29,3 +29,15 @@ Unset WRITE_SCHEMA:
 All configuration is done with environment variables and setting them via Dokku.
 They are documented in the [app.json](app.json).
 
+## Backing up
+
+Simply dump the database:
+`dokku postgresql:dump ttrss-database | gzip -9 > ttrss.gz".`
+
+## Updating
+
+Updating is done through rebuilding.
+
+If a schema update is required, simply run the following command:
+
+`dokku run ttrss vendor/fox/ttrss/update.php --update-schema`
