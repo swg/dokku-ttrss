@@ -1,5 +1,5 @@
 {
-	"name": "dokku-ttrss",
+	"name": "dokku/ttrss",
 	"repositories": [
 		{
 			"type": "package",

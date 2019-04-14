@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "621a6566430df64ebd9c705880a8b287",
-    "content-hash": "8548d3dc7fcbb7cb7f421511dfab9778",
+    "content-hash": "a87169ed9e1bcdef262cd591ecb14470",
     "packages": [
         {
             "name": "fox/ttrss",
@@ -16,7 +15,7 @@
                 "reference": "master"
             },
             "type": "project",
-            "time": "2016-06-03 09:08:03"
+            "time": "2019-04-14T14:15:13+00:00"
         }
     ],
     "packages-dev": [],
