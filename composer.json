@@ -16,11 +16,12 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=7.2.0",
 		"fox/ttrss": "@dev",
 		"ext-curl": "*",
 		"ext-gd": "*",
-		"ext-mbstring": "*"
+		"ext-mbstring": "*",
+		"ext-intl": "*"
 	},
 	"extra": {
 		"heroku": {

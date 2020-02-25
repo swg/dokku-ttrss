@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a87169ed9e1bcdef262cd591ecb14470",
+    "content-hash": "43da637be04eca07848c281953574ba3",
     "packages": [
         {
             "name": "fox/ttrss",
@@ -15,7 +15,7 @@
                 "reference": "master"
             },
             "type": "project",
-            "time": "2019-04-14T14:15:13+00:00"
+            "time": "2020-02-25T10:25:55+00:00"
         }
     ],
     "packages-dev": [],
@@ -27,10 +27,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4.0",
+        "php": ">=7.2.0",
         "ext-curl": "*",
         "ext-gd": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "ext-intl": "*"
     },
     "platform-dev": []
 }
