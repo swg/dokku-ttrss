@@ -27,6 +27,7 @@ Unset WRITE_SCHEMA:
 ## Configuration
 
 All configuration is done with environment variables and setting them via Dokku.
+
 They are documented in the [app.json](app.json).
 
 ## Plugins
@@ -44,7 +45,9 @@ Note: you will have to rebuild the container afterwards for these to work:
 `dokku ps:rebuild ttrss`
 
 Unlike system plugins these are enabled in the web interface, not via the
-config varable `PLUGINS`. See [fox/tt-rss/wiki/Plugins](https://git.tt-rss.org/fox/tt-rss/wiki/Plugins) for more info.
+config varable `PLUGINS`.
+
+See [fox/tt-rss/wiki/Plugins](https://git.tt-rss.org/fox/tt-rss/wiki/Plugins) for more info.
 
 ## Backing up
 
