@@ -81,5 +81,9 @@
             "description": "Check for updates to ttrss.",
             "value": "false"
         }
+        "GIT_PLUGINS": {
+            "description": "List of git plugins to clone to plugins.local (https://github.com/ttplugin/example,example;https://github.com/ttplugin/eg_proj,another;)",
+            "value": ""
+        }
     }
 }
