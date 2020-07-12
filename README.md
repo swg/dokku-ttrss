@@ -48,8 +48,7 @@ config varable `PLUGINS`. See [fox/tt-rss/wiki/Plugins](https://git.tt-rss.org/f
 
 ## Backing up
 
-Dump the database:
-`dokku postgresql:dump ttrss-database | gzip -9 > ttrss.gz".`
+Dump the database: `dokku postgres:export ttrss-database | xz -9ev > ttrss-$(date +%Y%m%d-%H%M).xz`
 
 ## Updating
 
