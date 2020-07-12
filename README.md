@@ -76,6 +76,8 @@ And substitute the ref at the end of this URL with the version you choose:
 
 `dokku config:set ttrss BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php.git#v${VERSION}`
 
+`dokku ps:rebuild ttrss`
+
 You can check the current version of your buildpack using `dokku report`:
 
 `dokku report | grep heroku`
