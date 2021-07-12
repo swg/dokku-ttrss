@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43da637be04eca07848c281953574ba3",
+    "content-hash": "7dde245dc8573904866839ce2bab9d4d",
     "packages": [
         {
             "name": "fox/ttrss",
@@ -14,8 +14,7 @@
                 "url": "https://github.com/dittos/ttrss-mirror.git",
                 "reference": "master"
             },
-            "type": "project",
-            "time": "2020-02-25T10:25:55+00:00"
+            "type": "project"
         }
     ],
     "packages-dev": [],
@@ -27,11 +26,12 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2.0",
+        "php": "^7.2.0",
         "ext-curl": "*",
         "ext-gd": "*",
         "ext-mbstring": "*",
         "ext-intl": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
